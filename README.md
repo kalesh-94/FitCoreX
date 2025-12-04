@@ -1,4 +1,4 @@
-🏋️‍♂️ FitCoreX — Gym Management Application
+**🏋️‍♂️ FitCoreX — Gym Management Application**
 
 FitCoreX is a full-stack Gym Management system built with a React (Vite) frontend and a FastAPI backend. It helps manage gym members, attendance, and fee status through an intuitive interface and a fast backend.
 
