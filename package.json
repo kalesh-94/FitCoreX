@@ -1,0 +1,23 @@
+{
+  "name": "gym-management-app",
+  "module": "index.ts",
+  "type": "module",
+  "author": "M Shuja Ali <me@shujaalik.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bun-types": "latest",
+    "concurrently": "^9.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "build": "cd client && npm run build",
+    "start": "concurrently \"npm run client:start\" \"npm run server:start\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "fastapi dev server",
+    "client:start": "cd client && npm run preview",
+    "server:start": "fastapi run server"
+  }
+}
