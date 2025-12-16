@@ -1,80 +1,79 @@
-##  FitCoreX — Gym Management Application
+#  FitCoreX — Gym Management Application
 
-FitCoreX is a full-stack Gym Management system built with a React (Vite) frontend and a FastAPI backend. It helps manage gym members, attendance, and fee status through an intuitive interface and a fast backend.
+FitCoreX is a full-stack Gym Management System built with a React (Vite) frontend and a FastAPI backend.
+It helps gym owners efficiently manage members, attendance, and fee status through an intuitive UI and a high-performance backend.
 
-Features
+---
 
-Member Management – Add, view, and update member profiles
+##  Features
 
-Attendance Tracking – Record check-ins and check-outs
+- Member Management  
+  Add, view, and update gym member profiles
 
-Fee Management – Track membership payments
+- Attendance Tracking  
+  Record member check-ins and check-outs
 
-Dashboard Analytics – Visual charts for insights
+- Fee Management  
+  Track membership payments and fee status
 
-🛠️ Tech Stack
-Frontend
+- Dashboard Analytics  
+  Visual charts for insights and reports
 
-React (Vite)
+---
 
-TypeScript
+## 🛠️ Tech Stack
 
-Tailwind CSS
+### Frontend
+- React (Vite)
+- TypeScript
+- Tailwind CSS
+- React Icons
 
-React Icons
+### Backend
+- FastAPI
+- SQLite Database
 
-Backend
+---
 
-FastAPI
+##  How to Run FitCoreX
 
-SQLite database
-
-🚀 How to Run FitCoreX (Without Docker)
-1. Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/FitCoreX.git
 cd FitCoreX
-
 🔧 Backend Setup (FastAPI)
-
-
-
-1. Navigate to backend folder:
+1. Navigate to the backend folder
 cd server
 
-2. Install required Python packages:
+2. Install required Python packages
 pip install -r requirements.txt
 
-3. Start the FastAPI backend:
+3. Start the FastAPI backend
 uvicorn server:app --reload
 
-Backend will run at:
+📍 Backend will run at:
 
 API Base URL → http://localhost:8000
 
-API Docs (Swagger) → http://localhost:8000/docs
+Swagger Docs → http://localhost:8000/docs
 
-
-if you need virtual environment use
-1- python -m venv myenv
-2- .\myenv\Scripts\activate.ps1
-3- pip install -r requirements.txt
-4- uvicorn server:app --reload
-
-
-
+🐍 Optional: Using a Virtual Environment
+python -m venv myenv
+.\myenv\Scripts\activate.ps1
+pip install -r requirements.txt
+uvicorn server:app --reload
 
 💻 Frontend Setup (React + Vite)
-1. Open a new terminal and go to the client folder:
+1. Open a new terminal and navigate to the client folder
 cd client
 
-2. Install dependencies:
+2. Install dependencies
 npm install
 
-3. Start development server:
+3. Start the development server
 npm run dev
 
-Frontend will run at:
-
+📍 Frontend will run at:
 http://localhost:3000
 
 📁 Project Structure
@@ -102,3 +101,11 @@ Attendance
 POST /record_attendance — Mark check-in or check-out
 
 GET /attendance — List attendance records
+
+⭐ Support the Project
+
+If you find FitCoreX helpful, please consider giving the repository a ⭐ on GitHub — it really helps!
+
+👨‍💻 Author
+
+Kalesh Patil
