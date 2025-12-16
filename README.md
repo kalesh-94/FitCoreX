@@ -38,52 +38,61 @@ It helps gym owners efficiently manage members, attendance, and fee status throu
 ##  How to Run FitCoreX
 
 ### 1️⃣ Clone the Repository
-```bash
+```
 git clone https://github.com/your-username/FitCoreX.git
 cd FitCoreX
+```
 🔧 Backend Setup (FastAPI)
 1. Navigate to the backend folder
+```
 cd server
-
-2. Install required Python packages
+```
+3. Install required Python packages
+```
 pip install -r requirements.txt
-
-3. Start the FastAPI backend
+```
+5. Start the FastAPI backend
+```
 uvicorn server:app --reload
-
+```
 📍 Backend will run at:
 
-API Base URL → http://localhost:8000
+API Base URL → ``` http://localhost:8000 ```
 
-Swagger Docs → http://localhost:8000/docs
+Swagger Docs → ``` http://localhost:8000/docs ```
 
 🐍 Optional: Using a Virtual Environment
+```
 python -m venv myenv
 .\myenv\Scripts\activate.ps1
 pip install -r requirements.txt
 uvicorn server:app --reload
-
+```
 💻 Frontend Setup (React + Vite)
 1. Open a new terminal and navigate to the client folder
+```
 cd client
-
-2. Install dependencies
+```
+3. Install dependencies
+```
 npm install
-
-3. Start the development server
+```
+5. Start the development server
+```
 npm run dev
-
+```
 📍 Frontend will run at:
-http://localhost:3000
+```http://localhost:3000 ```
 
 📁 Project Structure
+```
 FitCoreX/
 ├── client/                 # React frontend
 ├── server/                 # FastAPI backend
 ├── db.db                   # SQLite database
 ├── requirements.txt        # Backend dependencies
 └── README.md               # Documentation
-
+```
 📋 API Endpoints (Backend Summary)
 
 Visit Swagger Docs → http://localhost:8000/docs
@@ -106,6 +115,6 @@ GET /attendance — List attendance records
 
 If you find FitCoreX helpful, please consider giving the repository a ⭐ on GitHub — it really helps!
 
-👨‍💻 Author
 
+👨‍💻 Author
 Kalesh Patil
